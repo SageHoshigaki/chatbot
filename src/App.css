@@ -1,0 +1,30 @@
+.card-container {
+  padding-top: 13%;
+  margin: auto;
+  width: 50%;
+}
+.box {
+  position: relative;
+  border-radius: 25px;
+  width: 600px;
+  height: 400px;
+}
+
+.columns {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 40px;
+}
+
+.column {
+  margin: 0 0 10px 5px;
+}
+
+.message-btn {
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-face-smile {
+  color: black;
+}

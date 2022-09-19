@@ -101,24 +101,13 @@ function App() {
     {
       id: "17",
       options: [
-        { value: 1, label: "Yes", trigger: "18" },
+        { value: 1, label: "Yes", trigger: "19" },
         { value: 2, label: "No", trigger: "6" },
       ],
     },
-    {
-      id: "18",
-      message: "Did you dispute with CRAs First? (Send with mail tracking)",
-      trigger: "19",
-    },
+
     {
       id: "19",
-      options: [
-        { value: 1, label: "Yes", trigger: "20" },
-        { value: 2, label: "No", trigger: "6" },
-      ],
-    },
-    {
-      id: "20",
       message: "Did you dispute the completeness and accuracy of the account?",
       trigger: "21",
     },
@@ -136,15 +125,20 @@ function App() {
     },
     {
       id: "23",
-      message: "Did you dispute any information within th",
-      trigger: "21",
+      message: "Did you send in additional documents",
+      trigger: "24",
     },
     {
       id: "24",
       options: [
-        { value: 1, label: "Yes", trigger: "22" },
+        { value: 1, label: "Yes", trigger: "23" },
         { value: 2, label: "No", trigger: "6" },
       ],
+    },
+    {
+      id: "23",
+      message: "you still have to wait 45 daysend of the reinvestigation",
+      trigger: "24",
     },
   ];
   return (
